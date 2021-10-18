@@ -1,3 +1,58 @@
-.container{
+/*========================
+VARIABLES
+=========================*/
+
+:root {
+    --color-primary:#0065FC;
+    --color-primary-light:#DEEBFF;
+    --color-background:#F2F2F2;
+    --color-text:#000;
+
+    --fontsize-paragraph:16px;
+    --fontsize-h1:24px;
+    --fontsize-h2:20px;
+    --fontsize-h3:18px;
+
+
+}
+
+/*===========================
+MAIN OVERALL STYLES
+=============================*/
+body{
+    color:var(--color-text);
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--fontsize-paragraph);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.accessibility-hidden{
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+
+.search .search__filters{
+    display: flex;
+}
+
+/*===========================
+FOOTER 
+=============================*/
+.footer{
+    display: flex;
+    background-color: var(--color-background);
+    justify-content:flex-start;
     
+}
+
+.footer .footer__item{
+    padding-left: 5%;
 }
