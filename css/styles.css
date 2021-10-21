@@ -364,9 +364,11 @@ ___SEARCH RESULT SECTION____*/
     font-size:var(--fontsize-small);
 }
 
-.tile__img{
+
+/*.tile__thumbnail{
     object-fit: contain;
-}
+    height: 100%;
+}*/
 
 .tile__content{
     display: flex;
@@ -381,7 +383,7 @@ ___SEARCH RESULT SECTION____*/
 
 
 .tile__rating{
-    
+
     display: flex;
     gap: 4px;
     margin-top: auto;
