@@ -43,7 +43,8 @@ ul{
 button,
 input,
 select{
-    margin:0
+    margin:0;
+    padding:0;
 
 }html{
     box-sizing:border-box
@@ -52,7 +53,9 @@ select{
 *,
 *::before,
 *::after{
-    box-sizing:inherit
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 
 }img,
 video{
