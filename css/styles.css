@@ -15,9 +15,6 @@ VARIABLES
     --fontsize-h3:18px;
     --fontsize-paragraph:16px;
 
-    
-
-
 }
 
 /*===========================
@@ -89,7 +86,7 @@ button, input{
 }
 
 .fa-star--grey{
-    color: var(--color-background);
+    color: var(--color-filter-border)
 }
 
 
@@ -304,24 +301,39 @@ ___SEARCH RESULT SECTION____*/
     flex: 1 0 0;
 }
 
+/*----------GRID SECTION----------*/
+
+
 .tile-grid{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
 
-.tile-stack{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    flex:1 0 0;
-}
 
 .tile-grid__item{
     flex: 1 1 calc(33.3% - 48px);
 }
 
-.tile-grid__body{
+
+/*---------- STACK SECTION -------------*/
+
+.tile-stack{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.tile-stack__item{
+    flex:1 1 100%;
+}
+
+
+/*---------TILES-----------*/
+
+
+.tile__body{
     display: flex;
     flex-direction: column;
     border: 4px solid white;
@@ -329,18 +341,26 @@ ___SEARCH RESULT SECTION____*/
     overflow: hidden;
 }
 
+.tile--row{
+    flex-direction: row;
+}
+
+.tile--row .tile__thumbnail{
+    flex: 0 0 40%;
+}
+
+.tile--row .tile__content{
+    flex: 0 0 60%;
+}
+
 .tile{
     border-radius: var(--fontsize-paragraph);
     background-color: white;
 }
 
-
-
-/*.tile-thumb{
+.tile__img{
     object-fit: contain;
-}*/
-
-
+}
 
 
 
