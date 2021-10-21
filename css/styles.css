@@ -78,9 +78,6 @@ button, input{
 
 
 
-.search .search__filters{
-    display: flex;
-}
 
 .fa-star,
 .fa-money-bill-wave,
@@ -296,7 +293,54 @@ ___SEARCH RESULT SECTION____*/
     background-color: var(--color-background);
     padding: 32px;
     border-radius:20px;
+    flex-wrap: wrap;
+
 }
+
+.dual-section--large{
+    flex: 2 0 0;
+}
+.dual-section--small{
+    flex: 1 0 0;
+}
+
+.tile-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.tile-stack{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex:1 0 0;
+}
+
+.tile-grid__item{
+    flex: 1 1 calc(33.3% - 48px);
+}
+
+.tile-grid__body{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    border-radius: inherit;
+    overflow: hidden;
+}
+
+.tile{
+    border-radius: var(--fontsize-paragraph);
+    background-color: white;
+}
+
+
+
+/*.tile-thumb{
+    object-fit: contain;
+}*/
+
+
 
 
 
