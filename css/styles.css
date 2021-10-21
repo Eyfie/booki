@@ -365,10 +365,11 @@ ___SEARCH RESULT SECTION____*/
 }
 
 
-/*.tile__thumbnail{
-    object-fit: contain;
-    height: 100%;
-}*/
+.tile__img{
+    object-fit: cover;
+    height:144px;
+    width: 100%;
+}
 
 .tile__content{
     display: flex;
@@ -383,7 +384,6 @@ ___SEARCH RESULT SECTION____*/
 
 
 .tile__rating{
-
     display: flex;
     gap: 4px;
     margin-top: auto;
