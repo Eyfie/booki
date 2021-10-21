@@ -14,6 +14,7 @@ VARIABLES
     --fontsize-h2:20px;
     --fontsize-h3:18px;
     --fontsize-paragraph:16px;
+    --fontsize-small:14px;
 
 }
 
@@ -60,6 +61,10 @@ button, input{
 
 .title--h3{
     font-size: var(--fontsize-h3);
+}
+
+.title--h4{
+    font-size: var(--fontsize-paragraph);
 }
 
 .accessibility-hidden{
@@ -356,11 +361,32 @@ ___SEARCH RESULT SECTION____*/
 .tile{
     border-radius: var(--fontsize-paragraph);
     background-color: white;
+    font-size:var(--fontsize-small);
 }
 
 .tile__img{
     object-fit: contain;
 }
+
+.tile__content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 16px;
+}
+
+.tile__title{
+    margin-bottom: 8px;
+}
+
+
+.tile__rating{
+    
+    display: flex;
+    gap: 4px;
+    margin-top: auto;
+}
+
 
 
 
