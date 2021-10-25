@@ -31,7 +31,9 @@ body{
     font-size: var(--fontsize-paragraph);
 }
 
-.container{
+header,
+main
+{
     padding-inline:5%;
 }
 
@@ -160,6 +162,11 @@ MAIN
     gap:48px;
     padding-top:48px;
     padding-bottom: 48px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
 }
 /*__________________________
  ______SEARCH SECTION_______
@@ -320,6 +327,15 @@ ___SEARCH RESULT SECTION____*/
     flex: 1 1 calc(33.3% - 48px);
 }
 
+.tile-grid__link{
+    display: inline-block;
+    margin-top: 8%;
+}
+
+.tile-grid__link:hover{
+    color: var(--color-filter-border);
+}
+
 
 /*---------- STACK SECTION -------------*/
 
@@ -334,8 +350,21 @@ ___SEARCH RESULT SECTION____*/
     flex:1 1 100%;
 }
 
+    
 
 /*---------TILES-----------*/
+
+.tile--row{
+    flex-direction: row;
+}
+
+.tile--row .tile__thumbnail{
+    flex: 0 0 30%;
+}
+
+.tile--row .tile__content{
+    flex: 0 0 70%;
+}
 
 
 .tile__body{
@@ -344,6 +373,7 @@ ___SEARCH RESULT SECTION____*/
     border: 4px solid white;
     border-radius: inherit;
     overflow: hidden;
+    height: 100%;
 }
 
 .tile--row{
@@ -351,11 +381,11 @@ ___SEARCH RESULT SECTION____*/
 }
 
 .tile--row .tile__thumbnail{
-    flex: 0 0 40%;
+    flex: 0 0 30%;
 }
 
 .tile--row .tile__content{
-    flex: 0 0 60%;
+    flex: 0 0 70%;
 }
 
 .tile{
@@ -366,10 +396,17 @@ ___SEARCH RESULT SECTION____*/
 
 
 .tile__img{
+    display: block;
     object-fit: cover;
-    height:144px;
+    object-position: center;
+    height: 144px;   
     width: 100%;
 }
+
+.tile--row .tile__img{
+    height: 190px;
+}
+
 
 .tile__content{
     display: flex;
@@ -382,6 +419,10 @@ ___SEARCH RESULT SECTION____*/
     margin-bottom: 8px;
 }
 
+.tile__description{
+    margin-bottom: 8px;
+    font-size:var(--fontsize-small);
+}
 
 .tile__rating{
     display: flex;
@@ -404,7 +445,7 @@ FOOTER
     flex: 1;
     background-color: var(--color-background);
     justify-content:flex-start;
-    padding:48px;
+    padding:2.5%;
 
 }
 
