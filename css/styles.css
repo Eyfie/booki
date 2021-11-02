@@ -51,6 +51,12 @@ button, input{
     font: inherit;
 }
 
+[type="search"]{
+    outline: none;
+    -webkit-appearance: none;
+}
+
+
 .title{
     font-weight: 700;
 }
@@ -83,8 +89,6 @@ button, input{
 }
 
 
-
-
 .fa-star,
 .fa-money-bill-wave,
 .fa-child,
@@ -97,7 +101,6 @@ button, input{
 .fa-star--grey{
     color: var(--color-filter-border)
 }
-
 
 .button{
     cursor: pointer;
@@ -215,7 +218,9 @@ MAIN
     border-top: 1px solid var(--color-background);
     border-bottom: 1px solid var(--color-background);
     padding-left: 18px;
+    padding-right: 24px;
     font-weight: 900;
+    width: 35%;
 }
 
 .search-form__field::placeholder{
@@ -259,7 +264,6 @@ MAIN
     border-radius: 24px;
     border: 2px solid var(--color-filter-border);
     border-left: none;
-    transition: 0.3s ease-in-out;
 }
 
 
@@ -282,6 +286,7 @@ MAIN
     background-color: var(--color-primary-light);
     border-color: var(--color-primary-light);
     color: var(--color-primary);
+    transition: 0.3s ease-in-out;
 }
 
 /*-------SEARCH NUMBER-------*/
