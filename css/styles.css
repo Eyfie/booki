@@ -36,7 +36,7 @@ body{
 header,
 main
 {
-    padding-inline:5%;
+    padding:0 5%;
 }
 
 a{
