@@ -99,6 +99,10 @@ button, input{
 }
 
 
+.button{
+    cursor: pointer;
+}
+
 /*===========================
 HEADER
 ============================*/
@@ -205,6 +209,8 @@ MAIN
 }
 
 
+
+
 .search-form__field{
     border-top: 1px solid var(--color-background);
     border-bottom: 1px solid var(--color-background);
@@ -225,6 +231,11 @@ MAIN
     border-bottom-right-radius: var(--fontsize-paragraph);
     padding-left: var(--fontsize-paragraph);
     padding-right: var(--fontsize-paragraph);
+    
+}
+
+.search-form__submit--icon{
+    display: none;
 }
 
 /*--------FILTERS-----------*/
@@ -245,7 +256,6 @@ MAIN
     display: flex;
     height: 48px;
     align-items: center;
-    cursor: pointer;
     border-radius: 24px;
     border: 2px solid var(--color-filter-border);
     border-left: none;
