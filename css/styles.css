@@ -220,7 +220,6 @@ MAIN
     padding-left: 18px;
     padding-right: 24px;
     font-weight: 900;
-    width: 35%;
 }
 
 .search-form__field::placeholder{
