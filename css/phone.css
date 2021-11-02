@@ -4,24 +4,25 @@
         padding:0%;
     }
 
-    .header__nav{
+    .header-nav{
         flex-direction: column;
         align-items: center;
         gap: 16px;
     }
 
-    .header__nav__list{
+    .header-nav__list{
         display: flex;
         justify-content: space-evenly;
         width:100%;
     }
 
-    .header__nav__list__item{
+    .header-nav__list__item{
         width: 50%;
     }
 
 
-    .header__nav__list__link::before, .header__nav__list__link::after {
+    .header-nav__list__link::before, 
+    .header-nav__list__link::after {
         content: '';
         position: absolute;
         top: 40px;

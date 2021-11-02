@@ -115,17 +115,17 @@ HEADER
     width:120px;
 }
 
-.header__nav{
+.header-nav{
     display: flex;
     justify-content: space-between;
 }
 
-.header__nav__list{
+.header-nav__list{
     text-align: center;
     padding-top:24px;
 }
 
-.header__nav__list__item{
+.header-nav__list__item{
     position:relative;
     display: inline-block;
     width:180px;
@@ -135,14 +135,14 @@ HEADER
 /*LINK EFFECT*/
 
 
-.header__nav__list__link:hover{
+.header-nav__list__link:hover{
     color:var(--color-primary)
 }
-.header__nav__list__link::before{
+.header-nav__list__link::before{
     color:var(--color-text);
 }
-.header__nav__list__link::before, 
-.header__nav__list__link::after{
+.header-nav__list__link::before, 
+.header-nav__list__link::after{
     content: '';
     position: absolute;
     top: -64px;
@@ -152,7 +152,7 @@ HEADER
     transition:0.3s ease-in-out;
 }
 
-.header__nav__list__link:hover::after{
+.header-nav__list__link:hover::after{
     background-color: var(--color-primary);
 }
 
