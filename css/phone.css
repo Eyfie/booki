@@ -1,0 +1,39 @@
+@media (max-width:768px){
+
+    .header__nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+
+    .search-form{
+        display: flex;
+        
+    }
+
+    .search-form__submit{
+        border-radius: var(--fontsize-paragraph);
+        width: 56px;
+    }
+
+    .search-form__submit--icon{
+        display: inline-block;
+    }
+
+    .search-form__submit--text{
+        display: none;
+    }
+
+
+    .tile-masonry__item,
+    .tile-grid__item{
+        flex: 1 1 100%;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+
+}

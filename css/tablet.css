@@ -1,0 +1,39 @@
+@media (max-width:991px) {
+
+
+    /* */
+    .filter{
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .dual-section{
+        flex-direction: column-reverse;
+    }
+
+    .dual-section__part{
+        padding: 0px;
+    }
+
+    .dual-section--large{
+        background-color: white;
+    }
+
+    .dual-section--small{
+        margin: 0 -5.5%;
+        padding: 32px 6%;
+        border-radius: 0px;
+    }
+
+    .tile-masonry{
+        flex-direction: row;
+        height: auto;
+    }
+
+    .tile-masonry__item--large,
+    .tile-masonry__item--medium
+    .tile-masonry__item--small{
+        flex: 1 1 calc(33.3% -24px * 2);
+    }
+    
+}
