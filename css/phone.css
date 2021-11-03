@@ -1,5 +1,8 @@
 @media (max-width:768px){
 
+
+    /*==== Mobile navigation changes =====*/
+    
     header{
         padding:0%;
     }
@@ -19,7 +22,7 @@
     .header-nav__list__item{
         width: 50%;
     }
-
+    
 
     .header-nav__list__link::before, 
     .header-nav__list__link::after {
@@ -34,6 +37,7 @@
         bottom: -24px;
     }
 
+    /*====== Mobile search form changes ======*/
 
     .search-form{
         display: flex;
@@ -57,11 +61,15 @@
         display: none;
     }
 
+    /*======= Tile masonry homogeneous display vertically ======*/
 
     .tile-masonry__item,
     .tile-grid__item{
         flex: 1 1 100%;
     }
+
+
+    /*==== Footer display vertically ====*/
 
     .footer{
         flex-direction: column;

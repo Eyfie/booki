@@ -1,11 +1,14 @@
 @media (max-width:991px) {
 
 
-    /* */
+    /*======== Filter button display changes ======== */
     .filter{
         flex-direction: column;
         align-items: normal;
     }
+
+
+    /*==== Accomodation section changes ==== */
 
     .dual-section{
         flex-direction: column-reverse;
@@ -25,15 +28,11 @@
         border-radius: 0px;
     }
 
+    /*===== Tile Masonry display horizontally ========*/
+
     .tile-masonry{
         flex-direction: row;
         height: auto;
-    }
-
-    .tile-masonry__item--large,
-    .tile-masonry__item--medium
-    .tile-masonry__item--small{
-        flex: 1 1 calc(33.3% -24px * 2);
     }
     
 }
