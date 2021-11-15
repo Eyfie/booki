@@ -4,13 +4,14 @@ Projet OpenClassrooms. L'objectif est d'intégrer la maquette d'un site web en H
 
 ## Spécifications fonctionnelles
 
-- Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle.
+- Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle et doit être englobée dans un formulaire pour être valide W3C.
 
 - Chaque carte d’hébergement ou d’activité doit être cliquable dans son intégralité. Pour l’instant, les liens sont vides.
 
 - Les filtres doivent changer d’apparence au survol. Par contre, ils ne doivent pas être fonctionnels.
 
 - Les textes "Hébergements" et "Activités", situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section "Hébergements à Marseille" et "Activités à Marseille".
+
 
 ## Spécifications techniques
 
@@ -25,3 +26,5 @@ Projet OpenClassrooms. L'objectif est d'intégrer la maquette d'un site web en H
 - Il est important d’utiliser des balises sémantiques (type `main`, `header`, `nav`, etc.).
 
 - Le code doit être valide aux validateurs W3C HTML et CSS, et compatible avec les dernières versions de Chrome et Firefox.
+
+- Les couleurs de la charte sont le bleu (#0065FC), une version plusclaire de ce bleu (#DEEBFF) et le gris pour le fond (#F2F2F2).
