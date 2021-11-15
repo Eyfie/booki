@@ -1,6 +1,7 @@
 # Booki
 
-Projet OpenClassrooms. L'objectif est d'intégrer la maquette d'un site web en HTML et CSS.
+Développement du nouveau site Booki. L’ensemble de ces éléments ont été validés par l’équipe Produit, il est donc important de les
+respecter. L'objectif est d'intégrer la maquette et d'établir un prototype du site web en HTML et CSS.
 
 ## Spécifications fonctionnelles
 
